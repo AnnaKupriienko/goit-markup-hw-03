@@ -184,3 +184,10 @@ color: #2E2F42;
         color: #F4F4FD;
 }
 /* ====== FOOTER STYLES ===== /*/
+img{
+    display: block;
+}
+ul ol {
+    margin: 0;
+    padding-left: 0;
+}
