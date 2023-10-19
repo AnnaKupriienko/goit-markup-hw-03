@@ -155,6 +155,7 @@ ul,ol {
 /* ====== HERO ===== /*/
 
 /* ====== FEATURES STYLES ===== */
+
 .visually-hidden{
     position: absolute;
         width: 1px;
@@ -169,7 +170,7 @@ ul,ol {
         overflow: hidden;
 }
 .features{
-    padding-top: 105px;
+    padding-top: 120px;
     padding-bottom: 132px;
 }
 .features-list{
@@ -186,20 +187,20 @@ ul,ol {
         margin-bottom: 8px; 
 }
 .features-list-text{
-    width: 264px;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        max-width: 264px;
 }
 /* ====== FEATURES STYLES ===== /*/
 
 /* ====== TEAM STYLES ===== */
 .team{
     background-color: #F4F4FD;
-    padding-top: 132px;
-    padding-bottom: 108px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .team-title{
 font-size: 36px;
@@ -217,8 +218,9 @@ font-size: 36px;
 .team-list{
     display: flex;
     justify-content: space-between;
-    column-gap: 24px;
+    gap: 24px;
     flex-wrap: wrap;
+    border-radius: 0px 0px 4px 4px;
 }
 .team-link{
     background-color: #FFFFFF;
@@ -230,7 +232,6 @@ font-size: 36px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 .team-list-text{
@@ -240,7 +241,11 @@ font-size: 36px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+}
+.container-team{
+    padding-top: 32px;
     padding-bottom: 32px;
+
 }
 /* ====== TEAM STYLES ===== /*/
 
@@ -307,6 +312,11 @@ font-size: 36px;
         max-width: 264px;
         padding-top: 17.5px;
         padding-bottom: 100px;
+}
+.link-footer{
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 16px;
 }
 
 /* ====== FOOTER STYLES ===== /*/
