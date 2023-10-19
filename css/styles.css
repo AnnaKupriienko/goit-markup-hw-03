@@ -48,10 +48,12 @@ ul,ol {
     display: flex;
     align-items: center;
 }
+
 .menu{
     display: flex;
     justify-content: space-between;
     gap: 40px;
+    padding: 0 15px;
 }
 .contact-list{
     display: flex;
