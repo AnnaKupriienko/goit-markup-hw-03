@@ -44,6 +44,8 @@ ul,ol {
 .container-header{
     display: flex;
     justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .page-nav{
     display: flex;
@@ -54,7 +56,6 @@ ul,ol {
     justify-content: space-between;
     gap: 40px;
 }
-
 .contact-list{
     display: flex;
     justify-content: flex-end;
