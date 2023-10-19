@@ -39,6 +39,7 @@ ul,ol {
 
 /* ====== HEADER STYLES ===== */
 .page-header{
+    padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
@@ -289,6 +290,8 @@ font-size: 36px;
 /* ====== FOOTER STYLES ===== */
 .page-footer{
     background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .logotype-word-footer{
     color: #F4F4FD;
@@ -301,8 +304,9 @@ font-size: 36px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #F4F4FD;
-        width: 264px;
+        max-width: 264px;
         padding-top: 17.5px;
         padding-bottom: 100px;
 }
+
 /* ====== FOOTER STYLES ===== /*/
