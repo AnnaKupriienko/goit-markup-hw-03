@@ -48,6 +48,8 @@ ul,ol {
 .page-nav{
     display: flex;
     align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .menu{
     display: flex;
