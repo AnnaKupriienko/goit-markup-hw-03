@@ -38,7 +38,7 @@ ul,ol {
 .page-header{
     border-bottom: 1px solid #e7e9fc;
 }
-.container-header {
+.container-header{
     display: flex;
     justify-content: space-between;
     padding-top: 24px;
