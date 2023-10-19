@@ -41,11 +41,13 @@ ul,ol {
 .page-header{
     border-bottom: 1px solid #e7e9fc;
 }
-.container-header{
+.container-header {
     display: flex;
     justify-content: space-between;
     padding-top: 24px;
     padding-bottom: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .page-nav{
     display: flex;
