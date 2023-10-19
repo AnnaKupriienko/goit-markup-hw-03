@@ -87,6 +87,8 @@ ul,ol {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        padding-top: 24px;
+        padding-bottom: 24px;
 }
 .menu-link:hover,
 .menu-link:focus{
