@@ -56,8 +56,8 @@ ul,ol {
     gap: 40px;
 }
 .menu-list-item{
-    padding-bottom: 24px;
     padding-top: 24px;
+    padding-bottom: 24px;
 
 }
 .contact-list{
@@ -258,7 +258,7 @@ font-size: 36px;
     padding-top: 120px;
 }
 .container-portfolio{
-    padding: 32px 16 px;
+    padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
 
