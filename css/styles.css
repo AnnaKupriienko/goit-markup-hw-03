@@ -39,8 +39,6 @@ ul,ol {
 
 /* ====== HEADER STYLES ===== */
 .page-header{
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
 .container-header{
@@ -56,6 +54,11 @@ ul,ol {
     display: flex;
     justify-content: space-between;
     gap: 40px;
+}
+.menu-list-item{
+    padding-bottom: 24px;
+    padding-top: 24px;
+
 }
 .contact-list{
     display: flex;
@@ -171,7 +174,7 @@ ul,ol {
 }
 .features{
     padding-top: 120px;
-    padding-bottom: 132px;
+    padding-bottom: 120px;
 }
 .features-list{
     display: flex;
@@ -220,9 +223,9 @@ font-size: 36px;
     justify-content: space-between;
     gap: 24px;
     flex-wrap: wrap;
-    border-radius: 0px 0px 4px 4px;
 }
 .team-link{
+    border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
 }
 .team-list-title{
@@ -252,6 +255,13 @@ font-size: 36px;
 /* ====== PORTFOLIO STYLES ===== */
 .portfolio{
     padding-bottom: 120px;
+    padding-top: 120px;
+}
+.container-portfolio{
+    padding: 32px 16 px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+
 }
 .portfolio-title{
     width: 218px;
@@ -265,7 +275,7 @@ font-size: 36px;
         margin-left: auto;
         margin-right: auto;
         padding-top: 108px;
-        padding-bottom: 72px;
+        margin-bottom: 72px;
 }
 .portfolio-list{
     display: flex;
