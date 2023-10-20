@@ -53,11 +53,19 @@ ul,ol {
     justify-content: space-between;
     gap: 40px;
 }
+.menu-list-item{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
 .contact-list{
     display: flex;
     justify-content: flex-end;
     gap: 40px;
+    }
+    .contact-list-item{
+    padding-top: 24px;
+    padding-bottom: 24px;
     }
 
 .logotype{
@@ -87,7 +95,6 @@ ul,ol {
         color: #2E2F42;
 }
 
-    
 .menu-link:hover,
 .menu-link:focus{
     color: #404bbf;
@@ -106,10 +113,10 @@ ul,ol {
     color: #404BBF;
 }
 .contacts{
-    font-style: normal;
-    padding-top: 24px;
-    padding-bottom: 24px;
+font-style: normal;
 }
+
+  
 /* ====== HEADER STYLES ===== /*/
 
 /* ====== HERO ===== */
