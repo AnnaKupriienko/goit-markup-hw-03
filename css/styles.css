@@ -42,8 +42,7 @@ ul,ol {
 .container-header{
 display: flex;
 justify-content: space-between;
-padding-top: 24px;
-padding-bottom: 24px;
+margin: 24px 0;
 }
 
 .page-nav{
@@ -88,6 +87,8 @@ font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .menu-link:hover,
@@ -95,16 +96,18 @@ font-size: 16px;
     color: #404bbf;
 
 }
-.contact-list-link{
+.contact-link{
         font-size: 16px;
         font-weight: 400;
         font-style: normal;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color:#434455;
+        padding-bottom: 24px;
+        padding-top: 24px;
 }
-.contact-list-link:hover,
-.contact-list-link:focus{
+.contact-link:hover,
+.contact-link:focus{
     color: #404BBF;
 }
 .contacts{
