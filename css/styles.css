@@ -32,6 +32,8 @@ ul,ol {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 /* ====== COMMON STYLE ====== */
 
@@ -39,17 +41,15 @@ ul,ol {
 .page-header{
     border-bottom: 1px solid #e7e9fc;
 }
-.page-header .container{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
+
 .page-nav{
     display: flex;
     align-items: center;
 }
-
+.page-header .container {
+    display: flex;
+    justify-content: space-between;
+}
 .menu{
     display: flex;
     justify-content: space-between;
