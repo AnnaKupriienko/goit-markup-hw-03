@@ -42,8 +42,6 @@ border-bottom: 1px solid #e7e9fc
 .container-header{
 display: flex;
 justify-content: space-between;
-margin-top: 24px;
-margin-bottom: 24px;
 }
 .page-nav{
 display: flex;
@@ -54,7 +52,6 @@ display: flex;
 justify-content: space-between;
 gap: 40px;
 }
-
 .contact-list{
 display: flex;
 justify-content: flex-end;
@@ -88,7 +85,10 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 padding: 24px 0;
 }
-
+.contact-list-item,
+.menu-list-item{
+padding: 24px 0;
+}
 .menu-link:hover,
 .menu-link:focus{
     color: #404bbf;
