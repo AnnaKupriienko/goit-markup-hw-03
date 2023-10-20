@@ -36,14 +36,15 @@ ul,ol {
 /* ====== COMMON STYLE ====== */
 
 /* ====== HEADER STYLES ===== */
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .page-header{
     border-bottom: 1px solid #e7e9fc;
-}
-.container-header{
-display: flex;
-justify-content: space-between;
-padding-top: 24px;
-padding-bottom: 24px;
 }
 .page-nav{
     display: flex;
