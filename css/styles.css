@@ -32,8 +32,6 @@ ul,ol {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 /* ====== COMMON STYLE ====== */
 
@@ -41,7 +39,6 @@ ul,ol {
 .page-header{
     border-bottom: 1px solid #e7e9fc;
 }
-
 .page-nav{
     display: flex;
     align-items: center;
@@ -54,12 +51,16 @@ ul,ol {
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    padding: 0 15px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
 }
 .contact-list{
     display: flex;
     justify-content: flex-end;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     }
 
 .logotype{
@@ -82,14 +83,13 @@ ul,ol {
     color:#2e2f42;
 }
 .menu-link{
-        font-size: 16px;
+    font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2E2F42;
-        padding-top: 24px;
-        padding-bottom: 24px;
 }
+    
 .menu-link:hover,
 .menu-link:focus{
     color: #404bbf;
