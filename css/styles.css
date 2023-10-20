@@ -38,6 +38,8 @@ ul,ol {
 /* ====== HEADER STYLES ===== */
 .page-header{
     border-bottom: 1px solid #e7e9fc;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .page-nav{
     display: flex;
@@ -46,8 +48,6 @@ ul,ol {
 .page-header .container {
     display: flex;
     justify-content: space-between;
-    padding-top: 24px;
-     padding-bottom: 24px;
 }
 .menu{
     display: flex;
