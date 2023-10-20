@@ -42,6 +42,8 @@ ul,ol {
 .page-nav{
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .page-header .container {
     display: flex;
@@ -51,16 +53,11 @@ ul,ol {
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-
 }
 .contact-list{
     display: flex;
     justify-content: flex-end;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
     }
 
 .logotype{
@@ -84,10 +81,10 @@ ul,ol {
 }
 .menu-link{
     font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2E2F42;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
     
 .menu-link:hover,
@@ -109,6 +106,8 @@ ul,ol {
 }
 .contacts{
     font-style: normal;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 /* ====== HEADER STYLES ===== /*/
 
