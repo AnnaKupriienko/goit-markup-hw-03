@@ -30,7 +30,8 @@ ul,ol {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 /* ====== COMMON STYLE ====== */
 
@@ -38,7 +39,7 @@ ul,ol {
 .page-header{
     border-bottom: 1px solid #e7e9fc;
 }
-.container-header{
+.page-header .container{
     display: flex;
     justify-content: space-between;
     padding-top: 24px;
