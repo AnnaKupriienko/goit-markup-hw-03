@@ -37,7 +37,7 @@ ul,ol {
 
 /* ====== HEADER STYLES ===== */
 .page-header{
-    border-bottom: 1px solid #e7e9fc
+border-bottom: 1px solid #e7e9fc
 }
 .container-header{
 display: flex;
@@ -46,48 +46,47 @@ margin-top: 24px;
 margin-bottom: 24px;
 }
 .page-nav{
-    display: flex;
-    align-items: center;
+display: flex;
+align-items: center;
 }
 .menu{
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
+display: flex;
+justify-content: space-between;
+gap: 40px;
 }
 
 .contact-list{
-    display: flex;
-    justify-content: flex-end;
-    gap: 40px;
+display: flex;
+justify-content: flex-end;
+gap: 40px;
     }
 
 .logotype{
-        font-family: Raleway, sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4D5AE5;
-        margin-right: 76px;
+font-family: Raleway, sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+margin-right: 76px;
 }
 .logotype-word{
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color:#2e2f42;
+font-family: Raleway, sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:#2e2f42;
 }
 .menu-link{
 font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-    padding-top: 24px;
-    padding-bottom: 24px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+padding: 24px 0;
 }
 
 .menu-link:hover,
@@ -95,14 +94,13 @@ font-size: 16px;
     color: #404bbf;
 }
 .contact-link{
-        font-size: 16px;
-        font-weight: 400;
-        font-style: normal;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color:#434455;
-        padding-bottom: 24px;
-        padding-top: 24px;
+font-size: 16px;
+font-weight: 400;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:#434455;
+padding: 24px 0;
 }
 .contact-link:hover,
 .contact-link:focus{
@@ -110,9 +108,7 @@ font-size: 16px;
 }
 .contacts{
 font-style: normal;
-}
-
-  
+} 
 /* ====== HEADER STYLES ===== /*/
 
 /* ====== HERO ===== */
