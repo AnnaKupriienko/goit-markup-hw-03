@@ -38,16 +38,16 @@ ul,ol {
 /* ====== HEADER STYLES ===== */
 .page-header{
     border-bottom: 1px solid #e7e9fc;
-    padding-top: 24px;
-    padding-bottom: 24px;
+}
+.container-header{
+display: flex;
+justify-content: space-between;
+padding-top: 24px;
+padding-bottom: 24px;
 }
 .page-nav{
     display: flex;
     align-items: center;
-}
-.page-header .container {
-    display: flex;
-    justify-content: space-between;
 }
 .menu{
     display: flex;
