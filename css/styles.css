@@ -47,10 +47,7 @@ ul,ol {
     display: flex;
     align-items: center;
 }
-.link-header{
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
+
 .menu{
     display: flex;
     justify-content: space-between;
@@ -84,11 +81,12 @@ ul,ol {
 }
 .menu-link{
     font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
 }
+
     
 .menu-link:hover,
 .menu-link:focus{
@@ -109,6 +107,8 @@ ul,ol {
 }
 .contacts{
     font-style: normal;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 /* ====== HEADER STYLES ===== /*/
 
