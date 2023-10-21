@@ -249,7 +249,6 @@ margin-bottom: 72px;
     border-top: none;
 }
 .portfolio-title{
-    width: 218px;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -257,7 +256,6 @@ margin-bottom: 72px;
     text-transform: capitalize;
     text-align: center;
     color: #2E2F42;
-    padding-top: 108px;
     margin-bottom: 72px;
 }
 .portfolio-list{
